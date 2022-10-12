@@ -64,9 +64,9 @@ from employees;
 
 select department_id, select first_name||' '||last_naem as name, job_id
 from employees;
-?
 
-?SELECT * FROM employees WHERE DEPARTMENT_ID=90;
+
+SELECT * FROM employees WHERE DEPARTMENT_ID=90;
 
 SELECT DEPARTMENT_ID, FIRST_NAME ||' '|| LAST_NAME FULL_NAME, employee_id
 FROM employees
